@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <filter id="prefix__a" width="210.6%" height="210.6%" x="-55.3%" y="-50.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <circle id="prefix__b" cx="25" cy="25" r="19.898"/>
+        <path id="prefix__c" d="M7.196 1.47l1.549 1.498-6.189 6.188-2.24.718.717-2.241L7.196 1.47zM9.874.315c.42.421.42 1.103 0 1.523l-.487.39L7.928.789l.423-.473c.42-.42 1.102-.42 1.523 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
+        <use fill="#FFF" xlink:href="#prefix__b"/>
+        <g>
+            <g transform="translate(17.308 17.308) translate(2.564 2.564)">
+                <mask id="prefix__d" fill="#fff">
+                    <use xlink:href="#prefix__c"/>
+                </mask>
+                <use fill="#424B5A" fill-rule="nonzero" xlink:href="#prefix__c"/>
+                <g fill="#424B5A" mask="url(#prefix__d)">
+                    <path d="M0 0H17.231V17.231H0z" transform="translate(-3.59 -3.59)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

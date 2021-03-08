@@ -1,0 +1,58 @@
+
+.service-details-wrapper{
+    padding-bottom: 12rem;
+}
+.progress-buttons-wrapper{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+#details-service-description,#details-service-name{
+    display: block;
+    margin: 0 auto 2vh auto;
+    width: 90%;
+}
+
+@media only screen and (min-width: 1000px){
+    .service-details-wrapper{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .service-details-margin{
+        margin-right: 25%;
+        margin-bottom: 50px;
+    }
+    #details-service-name{
+        width: 150px;
+        float: center;
+        margin-right: 0px;
+    }
+    #details-service-description{
+        width: 400px;
+        float: center;
+        margin-right: 0px;
+    }
+    .form-left-chevron{
+        width: 40px;
+        margin-bottom: -45px;
+        padding-right: 0%;
+        cursor: pointer;
+        margin-right: 100px;   
+      }
+    .service-details-error{
+        margin-right: 5%;
+    }
+      .form-right-chevron{
+        width: 40px;
+        margin-bottom: -45px;
+        padding-left: 0%;
+        margin-left: 100px;
+        cursor: pointer;
+    }
+    .progress-bar-img{
+        width: 170px;
+        margin-bottom: -30px;
+    }
+}

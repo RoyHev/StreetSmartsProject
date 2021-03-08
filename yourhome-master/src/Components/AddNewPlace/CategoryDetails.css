@@ -1,0 +1,234 @@
+.title{
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(73,94,99);
+    display:block;
+    text-align: center;
+    margin: 2vh 0 2vh 0;
+}
+
+.pageLabel{
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(73,94,99);
+}
+
+.pageLabel.label-margin{
+    display:inline-block;
+    margin-bottom: 1vh;
+}
+.add-new-place-div {
+    position: relative;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+.add-new-place-error{
+    position: relative;
+    width: 92%;
+    margin: auto;
+    font-family: 'Alef', sans-serif;
+    color: red;
+    font-size: 16px;
+}
+
+.add-new-place-div-span {
+    position: relative;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+
+.select-class{
+    /* height: 3vh; */
+    float: left;
+    /* width: 20vh; */
+    padding: 4px 16px 4px 12px;
+    width: 44%;
+    color: rgb(73,94,99) ;
+    background-color: white;
+    border: 1px solid rgb(73,94,99);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    /* appearance: none; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('./../../Images/PlaceForm/chevron-down.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left -0.5% top 50%;
+}
+.select-class:focus, hover{
+    outline: none;
+    border: 1px solid rgb(42, 57, 61);
+}
+.select-class option{
+    background: #F6FCFE;
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    color: rgb(73,94,99) ;
+
+}
+
+#contact-name-input,[id^=contact-phone-input-]{
+    display: block;
+    margin: 0 auto 2vh auto;
+    width: 90%;
+}
+
+.new-place-input{
+    border-radius: 20px;
+    color: rgb(103, 115, 121);
+    /* height: 16px; */
+    outline: 0px;
+    border: 1px solid;
+    border-color: rgb(33,58,65);
+    padding: 0.5vh;
+    transition: 0.3s;
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    padding-right: 3vh;
+    
+  }
+  .new-place-input:hover{
+    border-color: rgb(33,58,65);
+    box-shadow: 0 0 0.6vh 0 rgb(33,58,65);
+  }
+
+  .add-new-button-style{
+    margin:auto;
+    display:block;
+    margin-bottom: 5%;
+  }
+
+  .additional-phone{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    color: rgb(73,94,99);
+    transition: transform 0.3s ease;
+
+  }
+
+  .additional-phone:hover {
+    transform: translateY(-3px);
+}
+.formDiv{
+    padding-bottom: 12rem;
+}
+
+#first-page-chevron{
+    opacity: 0.2;
+}
+
+.progress-bar{
+    /* display: inline-block; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 10rem;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    /* margin-right: 21%; */
+}
+.form-left-chevron{
+    width: 10%;
+    height: 10%;
+    margin-bottom: -3.5%;
+    padding-right: 4%;
+}
+.form-right-chevron{
+    /* position: absolute;
+    display: inline-block; */
+    width: 10%;
+    height: 10%;
+    margin-bottom: -3.5%;
+    padding-left: 4%;
+}
+
+.Categ{
+    margin-right: 2%;
+    margin-top: -2% !important;
+    /* margin-top: 2%; */
+}
+
+@media only screen and (min-width: 1000px){
+    .formDiv{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .category-details-div{
+        margin-bottom: 20px;
+    }
+    .category-details-div-select{
+        margin-bottom: 5px;
+    }
+    .select-class{
+        width: 200px;
+        margin-top: -5px;
+        margin-left: 18.5%;
+        float: left;
+        padding: 4px 16px 4px 12px;
+        color: rgb(73,94,99) ;
+    }
+    .category-details-label{
+        margin-right: 25%;
+    }
+    #contact-name-input{
+        width: 200px;
+        float: left;
+        margin-top: -35px;
+        margin-left: 20%;
+    }
+    [id^=contact-phone-input-]{
+        width: 200px;
+        float: left;
+        margin-top: -30px;
+        margin-left: 20%;
+    }
+    .new-place-input{
+        border-radius: 20px;
+        outline: 0px;
+        border: 1px solid;
+        padding: 0.5vh;
+        font-size: 16px;
+        padding-right: 3vh;
+        display:inline;
+        position: relative;
+      }
+      .add-new-place-error{
+          margin-right: 27.5%;
+      }
+      .form-left-chevron{
+        width: 40px;
+        margin-bottom: -45px;
+        padding-right: 0%;
+        cursor: pointer;
+        margin-right: 100px;   
+      }
+      .form-right-chevron{
+        width: 40px;
+        margin-bottom: -45px;
+        padding-left: 0%;
+        margin-left: 100px;
+        cursor: pointer;
+    }
+    .progress-bar-img{
+        width: 170px;
+        margin-bottom: -30px;
+    }
+    .additional-phone{
+        display: none;
+    }
+}

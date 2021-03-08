@@ -1,0 +1,112 @@
+:root {
+    --primary: #4628ff;
+    --warning: #ffd028;
+    --danger: #eb3d27;
+    --success: #75fa83;
+    --white: #fdfdfd;
+    --black: #181717;
+    --clothing: #f9b172;
+    --food:#57de81;
+    --employment:#a069ef;
+    --lodging:#66b3fb;
+    --aid:#fe6e6e;
+    --violence:#fb8dfb;
+    --rehab:#b9fff6;
+    --grey: rgb(160,160,160);
+}
+
+.mybtn {
+    font: Arial;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-family: 'Alef', sans-serif;
+}
+
+.mybtn:hover {
+    transform: translateY(-3px);
+}
+
+/* Button Colors */
+
+.mybtn--rehab--solid {
+    border: solid 1px var(--rehab);
+    color: var(--black);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #d8d8d8;
+}
+
+.mybtn--violence--solid {
+    border: solid 1px var(--violence);
+    color: var(--black);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #d8d8d8;
+}
+
+.mybtn--primary--solid {
+    border: solid 1px var(--primary);
+    color: var(--black);
+    background-color: #ffffff;
+}
+
+.mybtn--clothing--solid {
+    border: solid 1px  var(--clothing);
+    color: var(--black);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #d8d8d8;
+}
+
+.mybtn--food--solid {
+    border: solid 1px  var(--food);
+    color: var(--black);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #d8d8d8;
+}
+
+.mybtn--employment--solid {
+    border: solid 1px  var(--employment);
+    color: var(--black);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #d8d8d8;
+}
+
+.mybtn--reset--solid {
+    border: solid 1px  var(--grey);
+    color: var(--black);
+    background-color: #ffffff;
+}
+
+.mybtn--lodging--solid {
+    /* border: solid 1px  var(--lodging); */
+    border: solid 1px #66b3fb;
+    color: var(--black);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #d8d8d8;
+}
+
+.mybtn--aid--solid {
+    border: solid 1px  var(--aid);
+    color: var(--black);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #d8d8d8;
+}
+
+.mybtn--primary--outline {
+    border: solid 1px  transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);    
+}
+
+/* Button Sizes */
+
+.mybtn--medium {
+    padding: 1.4vh 2.5vh;
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+.mybtn--small {
+    padding: 8px 16px;
+    font-size: 10px;
+}

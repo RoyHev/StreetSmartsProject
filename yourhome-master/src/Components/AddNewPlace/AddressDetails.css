@@ -1,0 +1,146 @@
+.address-details-wrapper{
+    text-align: center;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.address-details-coordinates{
+    text-align: center;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(0,1fr);
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.pageLabel.label-margin{
+    display:inline-block;
+    margin-bottom: 1vh;
+}
+
+#city-name-input,#street-name-input{
+    display: block;
+    margin: 0 auto 2vh auto;
+    width: 90%;
+}
+.adressDiv{
+    padding-bottom: 12rem;
+}
+
+.building-input, .postal-input, .latitude-input, .longitude-input{
+    width: 80%;
+}
+
+.houseNumber{
+    margin-right: 12% !important;
+    /* margin-bottom: -2% !important; */
+    margin-top: 0% !important;
+    margin-left: -15% !important;
+}
+
+@media only screen and (min-width: 1000px){
+    .adressDiv{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .city-error{
+        margin-right: 50px;
+    }
+    .address-street-city-wrapper{
+        text-align: center;
+        display: grid;
+        position: relative;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2,1fr);
+        align-items: center;
+        margin-bottom: 0;
+        grid-template-areas: " a c" "b d ";
+        margin-top: -18px;
+        }
+    #adress-street-label{
+        grid-area: c;
+        margin-right: 0px;
+    }
+    #adress-city-input{
+        grid-area: b;
+
+    }
+    #city-name-input,#street-name-input, .building-input, .postal-input, .latitude-input, .longitude-input{
+        width: 200px;
+    }
+
+    .building-input, .latitude-input, #city-name-input{
+        float: left;
+        margin-left: 10px;
+    }
+    .postal-input, .longitude-input, #street-name-input{
+        float: right;
+        margin-right: 10px;
+    }
+    .address-city{
+        float: left;
+        margin-left: 185px;
+    }
+    
+    #new-place-postal-code{
+        float: right;
+        margin-right: 15px;    
+    }
+    .address-street{
+        float: right;
+        /* margin-right: 15px;     */
+
+    }
+    .address-building{
+        float: left;
+        margin-left: 145px;
+    }
+    .coordinates-label{
+        float: left;
+        margin-left: -47px;
+    }
+    .adress-coordinates-grid{
+    text-align: center;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    }
+    /* #city-required{
+        margin-right: 20%;
+        position: absolute;
+        align-items: left;
+        align-self: left;
+        float: left;
+        margin-left: 200px;
+    } */
+    #street-required{
+        /* position: absolute; */
+        float: right !important;
+        margin-right: 0px;
+    }
+    #city-required{
+        position: absolute;
+        float: right;
+    }
+    #house-no-required{
+        position: absolute;
+        float: left;
+        margin-left: 200px;
+        /* margin-right: 0px !important; */
+    }
+    .houseNumber{
+        margin-right: 2% !important;
+        margin-top: -2% !important;
+        margin-left: 0 !important;
+
+    }
+    .address-details-coordinates{
+        margin-bottom: 50px;
+    }
+}

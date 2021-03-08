@@ -1,0 +1,478 @@
+.place-card-map{
+    height: 180px;
+    width: 180px;
+}
+
+.placeModal {
+    /* background-color: #dbf3f9 !important; */
+    /* position: relative; */
+    border-radius: 4px;
+    margin-top: -3%;
+    text-align: center;
+    width: 88%;
+    height:90%;
+}
+
+.card-body-icons{
+    margin-bottom: -5%;
+    height: 10%;
+}
+
+.card-phone-icon{
+    margin-bottom: -4%;
+    height: 10%;
+}
+
+.card-contact-icon{
+    margin-bottom: -1%;
+    height: 10%;
+}
+
+.card-place-type-icon{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    height: 40px;
+}
+
+.card-place-edit-icon{
+    position: absolute;
+    top: 94%;
+    left: 25%;
+    height: 13%;
+    z-index: 1;
+    cursor: pointer;
+    filter: drop-shadow( 0px 0px 6px rgba(0, 0, 0, 0.2));
+
+}
+
+.card-place-delete-icon{
+    position: absolute;
+    top: 94%;
+    left: 51%;
+    height: 13%;
+    z-index: 1;
+    cursor: pointer;
+    filter: drop-shadow( 0px 0px 6px rgba(0, 0, 0, 0.2));
+
+}
+
+.closeModal{
+    cursor: pointer;
+    position: absolute;
+    float: right;
+    top: -2px;
+    left: 8px;
+    font-size: 35px;
+    /* font-weight: lighter; */
+    color: #424b5a;
+} 
+.wrapper {
+    height: 100%;
+    display: flex;
+    /* // Direction of the items, can be row or column */
+    flex-direction: column;
+  }
+  
+  .place-modal-header {
+    margin-top: 30px;
+    /* height: 17%; */
+    
+  }
+  .main-div{
+      margin-bottom: 6%;
+      text-align: right;
+      display: inline-block;
+  }
+
+  .card-contact-name{
+    margin-bottom: 6%;
+    /* text-align: right; */
+    /* display: inline-block;   */
+  }
+
+  .card-phone-nums{
+    margin-bottom: 6%;
+    /* text-align: right; */
+    /* display: inline-block;   */
+  }
+
+
+.place-modal-footer{
+    margin-top: 2px;
+    height: 12%;
+    margin-left: -18px;
+    margin-right: -18px;
+    /* border: purple solid 1px; */
+  }
+
+  
+  .place-modal-main{
+    background-color: white;
+    margin-top: 6%;
+    width: auto;
+    height: 55%;
+    margin-left: -18px;
+    margin-right: -18px;
+    padding: 12px 0px 0px 0px;
+    /* border: green solid 1px; */
+    overflow-y: scroll;
+  }
+
+.card-main-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    /* border: black solid 1px; */
+    direction: rtl;
+  }
+
+.card-main-wrapper > div:nth-child(3) {
+    grid-column: 1 / 3;
+}
+
+
+.place-card-title{
+    font-family: 'Alef', sans-serif;
+    font-size: 3.2vh;
+    font-weight: bold;
+    color: rgb(73,94,99);
+    text-align: center;
+}
+
+.place-card-map{
+    margin-right: 10px;
+}
+
+.place-card-icon-spacer{
+    display: inline;
+    position: relative;
+    margin-right: 5%;
+}
+
+.phone-icon-spacer{
+    display: inline;
+    position: relative;
+    margin-right: 3%;
+}
+
+/* .contact-us-div{
+    display: inline;
+    float: right;
+    margin-right: 10%;
+    margin-left: -70%;
+} */
+
+.place-card-spacer-from-icon{
+    display: inline;
+    margin-right: 6%;
+}
+
+.card-first-phone{
+    display: inline;
+    margin-right: 6px;
+}
+
+.card-text-spacer{
+    display: inline;
+    margin-right: 6%;
+}
+
+.place-card-phone{
+    display: inline;
+    margin-right: 6%;
+    /* width: 12px;
+    height: 21px; */
+    font-family: 'Alef';
+    font-size: 14px;
+    font-weight: bold;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #263d43;
+}
+
+.place-card-extra-phone{
+    display: block;
+    margin-right: calc(3% + 26px);
+    width: 12px;
+    height: 21px;
+    font-family: 'Alef';
+    font-size: 14px;
+    font-weight: bold;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #263d43;
+    /* margin-left: -20%; */
+}
+
+/* .card-relative-position{
+    position: relative;
+} */
+
+.place-card-days-style{
+    width: 12px;
+    height: 21px;
+    font-family: 'Alef';
+    font-size: 16px;
+    font-weight: bold;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #263d43;
+}
+
+.card-double-spacer{
+    display: block;
+    margin-right: 30%;
+    margin-left: -20%;
+}
+
+.card-extra-day-spacer{
+    margin-right: 30%;
+    display: inline;
+}
+
+.card-hours-style{
+    font-family: 'Alef';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    /* text-align: center; */
+    color: #263d43;
+}
+
+.place-card-adress{
+    font-family: 'Alef';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    /* text-align: center; */
+    color: #263d43;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.place-card-label1{
+  font-family: 'Alef';
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  /* text-align: center; */
+  color: #263d43;
+}
+
+
+
+.place-card-label3{
+    width: 102px;
+  height: 36px;
+  font-family: 'Alef';
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: right;
+  color: #263d43;
+}
+
+.card-footer-element{
+    /* display: inline-block; */
+    border-radius: 1px;
+    border: 1px solid rgb(73,94,99);
+    font-family: 'Alef', sans-serif;
+    color: rgb(73,94,99);
+    font-size: 13px;
+    /* font-weight: bold; */
+    background-color: white;
+    margin: 3% 3% 0% 0%;
+    float: right;
+    text-align: center;
+    cursor: context-menu;
+    outline: none;
+    padding: 0% 4%;
+}
+.footer-wrapper{
+    direction: rtl;
+    position: relative;
+    width:100%;
+    height:100%;
+}
+
+.place-card-term0{
+    display: inline;
+    margin-right: 2%;
+    font-family: 'Alef';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #263d43;
+    
+}
+
+.place-card-term-spacer0{
+    display: inline-block;
+    position: relative;
+    margin-right: 2.5%;
+}
+.place-card-term1{
+    display: inline;
+    margin-right: 2%;
+    font-family: 'Alef';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #263d43;
+    
+}
+.place-card-term-spacer1{
+    display: inline;
+    position: relative;
+    margin-right: 3%;
+}
+.place-card-term2{
+    display: inline;
+    margin-right: 2%;
+    font-family: 'Alef';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #263d43;
+    
+}
+.place-card-term-spacer2{
+    display: inline;
+    position: relative;
+    margin-right: 3%;
+}
+.place-card-term3{
+    display: inline;
+    margin-right: 2%;
+    font-family: 'Alef';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #263d43;
+    
+}
+.place-card-term-spacer3{
+    display: inline;
+    position: relative;
+    margin-right: 3%;
+}
+.card-term-icon0{
+    margin-bottom: -30%;
+    height: 10%;
+}
+.card-term-icon1{
+    margin-bottom: -1.5%;
+    height: 10%;
+}
+.card-term-icon2{
+    margin-bottom: -2%;
+    height: 10%;
+}
+.card-term-icon3{
+    margin-bottom: -2%;
+    height: 10%;
+}
+.card-term-spacer{
+    margin-bottom: 3px;
+}
+.card-terms-div{
+    /* border: blue solid 1px; */
+    margin-top: 3%;
+}
+@media only screen and (min-width: 1220px){
+    .placeModal{
+        width: 30% ;
+        height: 95% ;
+        margin-top: 0px;
+    }
+    .place-card-map{
+        position: relative;
+        height: 200px;
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 1220px) and (min-width: 940px){
+    .placeModal{
+        width: 40% ;
+        height: 95% ;
+        margin-top: 0px;
+    }
+    .place-card-map{
+        position: relative;
+        height: 200px;
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 940px) and (min-width: 800px){
+    .placeModal{
+        width: 45% ;
+        height: 95% ;
+        margin-top: 0px;
+    }
+    .place-card-map{
+        position: relative;
+        height: 200px;
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 700px){
+    .placeModal{
+        width: 45% ;
+        height: 95% ;
+        margin-top: 0px;
+    }
+    .place-card-map{
+        position: relative;
+        height: 200px;
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .place-card-map{
+        position: relative;
+        height: 200px;
+        width: 150px;
+    }
+}

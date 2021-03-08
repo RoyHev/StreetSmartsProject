@@ -1,0 +1,32 @@
+.bread-crumbs{
+    margin-right: 5%;
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: -2%;
+}
+
+.secondRef{
+    text-decoration: none;
+    color: #263d43;
+    font-family: 'Alef', sans-serif;
+    font-size: 14px;
+    display: inline;
+}
+.firstRef{
+    text-decoration: none;
+    color: #263d43;
+    text-underline-position: none;
+    font-family: 'Alef', sans-serif;
+    font-size: 14px;
+    display: inline;
+}
+
+.firstRef :hover, :link, :visited, :active{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.firstRef :focus{
+    text-decoration: none;
+}

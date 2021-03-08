@@ -1,0 +1,138 @@
+.mainPlaceViewDiv{
+  text-align: right;;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 90%;
+  height: 120px;
+  box-shadow: 0 0 10px 1px #e7e7e7e8;
+  background-color: #ffffff;
+  grid-template-columns: 231px 231px 231px ;
+  grid-template-rows: 16px 21px 15px;
+  justify-content: center; 
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .placeNameTitle{
+    display: inline-block;
+    position: relative;
+    right: 2%;
+    margin-bottom: 1.5%;
+    margin-top: 1%;
+    direction: rtl;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #263d43;
+  }
+
+.descriptionStyle{
+  right: 1%;
+  position: relative;
+  /* padding-bottom: 1vh; */
+  direction: rtl;
+  font-family: 'Alef', sans-serif;
+  font-size: 16px;
+  color: #263d43;
+
+  }
+.place-div{
+  right: 2%;
+  position: relative;
+  direction: rtl;
+  font-family: 'Alef', sans-serif;
+  font-size: 16px;
+  color: #263d43;
+  margin-bottom: 2%;
+  }
+
+  .placeStyle
+  {
+    position: relative;
+    float: right;
+    margin-right: -23%;
+    padding-bottom: 10px;
+    direction: rtl;
+    width: 70%;
+    height: auto;
+    font-family: 'Alef', sans-serif;
+    font-size: 14px;
+    text-align: right;
+    color: #263d43;
+    margin-top: -7%;
+    float: right;
+  }
+
+
+.iconStyle{
+  display: inline-block;
+  align-items: left;
+  position: absolute;
+  height: 110px;
+
+ }
+ .iconStyleImg{
+   margin-top: -42%;
+   height: 159px;
+ }
+
+
+ .container {
+  display: inline-block;
+  display: flex;
+  flex-direction: row-reverse;
+  object-fit: contain;
+  justify-content: space-between;
+}
+
+ .featur1eStyle{
+  display: inline-block;
+  margin-left: 1vh;
+  width: 3vh;
+  height: 2.5vh;
+  object-fit: contain;
+ }
+
+ .placeViewIcons{
+   margin-top: 8%;
+ }
+
+ .withAddress{
+   font-family: 'Alef',sans-serif;
+   font-size: 14px;
+   color: #263d43;
+   margin-right: 2%;
+ }
+
+ .placeDescriptionEli{
+   font-family: 'Alef',sans-serif;
+   
+ }
+
+ @media only screen and (min-width: 768px) {
+  .flex-container {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .placeViewIcons{
+    margin-top: 2%;
+  }
+  .place-div{
+    right: 1.5%;
+    margin-bottom: 0.5%;
+  }
+  .placeNameTitle{
+    font-size: 19px;
+    right: 1.5%;
+    margin-top: 0%;
+  }
+  .withAddress{
+    font-size: 16px;
+    margin-right: 1.5%;
+  }
+ }

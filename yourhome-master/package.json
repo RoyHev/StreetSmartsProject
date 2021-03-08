@@ -1,0 +1,97 @@
+{
+  "name": "try",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bit/grommet.grommet-icons.clock": "^4.2.0",
+    "@bit/grommet.grommet.button": "^2.11.1",
+    "@bit/grommet.grommet.paragraph": "^2.11.1",
+    "@bit/grommet.grommet.text": "^2.11.1",
+    "@bit/lekanmedia.shared-ui.action-button": "^1.0.8",
+    "@bit/lekanmedia.shared-ui.primary-button": "^1.0.7",
+    "@bit/lekanmedia.shared-ui.search-bar": "^1.0.9",
+    "@bit/mienviomx.components.text": "^1.1.1",
+    "@bit/mui-org.material-ui.checkbox": "^4.9.10",
+    "@bit/nexxtway.react-rainbow.button": "^1.10.0",
+    "@bit/ranm8.feed.paragraph": "^1.0.2",
+    "@bit/segmentio.evergreen.search-input": "^4.15.0",
+    "@bit/semantic-org.semantic-ui-react.checkbox": "^0.86.0",
+    "@bit/semantic-org.semantic-ui-react.input": "^0.86.0",
+    "@bit/tallyb.test.footer": "0.0.5",
+    "@bit/wiredjs.wired-elements.wired-checkbox": "^1.0.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@reach/menu-button": "^0.7.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.2",
+    "cors": "^2.8.5",
+    "css-loader": "^3.6.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "firebase": "^7.21.1",
+    "json-loader": "^0.5.7",
+    "leaflet": "^1.7.1",
+    "material-ui": "^0.20.2",
+    "multiselect-react-dropdown": "^1.6.1",
+    "react-bootstrap": "^1.3.0",
+    "react-ellipsis-text": "^1.2.1",
+    "react-google-font-loader": "^1.1.0",
+    "react-icons": "^3.11.0",
+    "react-instantsearch-dom": "^6.7.0",
+    "react-is": "^16.13.1",
+    "react-leaflet": "^2.7.0",
+    "react-responsive-modal": "^5.1.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.3.0",
+    "react-search-field": "^1.1.0",
+    "react-share": "^4.3.0",
+    "react-wired": "^1.0.1",
+    "reactjs-popup": "^1.5.0",
+    "style-loader": "^1.2.1",
+    "styled-components": "^5.2.0",
+    "wired-checkbox": "^2.1.0",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.13"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "moment": "^2.29.0",
+    "moment-timezone": "^0.5.31",
+    "nodemailer": "^6.4.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-times": "^3.1.12"
+  }
+}

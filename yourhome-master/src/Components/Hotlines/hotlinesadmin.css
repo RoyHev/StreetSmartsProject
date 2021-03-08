@@ -1,0 +1,146 @@
+.adminHotlineSearch{
+    float: right;
+    width: 100%;
+}
+.addBtn{
+    float: left;
+    margin-left: 20%;
+    margin-top: -10%; 
+    width: 55px;
+    height: 55px;
+    filter: drop-shadow( 0px 0px 6px rgba(0, 0, 0, 0.2));
+    cursor: pointer;
+
+}
+.addBtn :hover{
+    cursor: pointer;
+}
+.hotlines-wrapper{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    direction: rtl;
+}
+
+.hotlines-wrapper > div:nth-child(1){
+    grid-column: 1/8;
+}
+
+.hotlines-wrapper > div:nth-child(2){
+    grid-column: 8;
+}
+
+.customModalDelete{
+    background-color: #dbf3f9;
+    border-radius: 10px;
+    width: 75%;
+}
+.confirm-delete{
+    font-family: 'Alef', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.delete-info{
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    word-wrap: break-word;
+    width: 200px;
+}
+.closeDeleteModal{
+    font-size: 30px;
+    float: right;
+    margin-right: -5%;
+    margin-top: -40%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.closeDeleteModal :hover{
+    cursor: pointer;
+}
+.brain100logo{
+    margin-top: -25%;
+}
+
+.deleteButtons{
+    /* font-family: 'Alef', sans-serif; */
+    margin-top: 7%;
+    margin-bottom: 15%;
+}
+
+.delete{
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    border-radius: 20px;
+    border: solid 1px #263d43;
+    outline: 0;
+    padding: 8px 18px 8px 18px;
+    /* margin-left: 100px; */
+}
+.delete.cancel{
+    background-color: #dbf3f9;
+    margin-right: 7.5%;
+}
+
+.delete.confirm{
+    background-color: #263d43;
+    margin-left: 7.5%;
+    color: #25c3e8;
+}
+.crumbs-admin-hotlines{
+    margin-bottom: -5%;
+}
+
+@media only screen and (min-width: 768px){
+    .hotlines-wrapper{
+        display: unset;
+    }
+    .addBtn{
+        margin-top: -0.5%;
+        margin-left: 30%;
+    }
+    .addHotlineDiv{
+        display: inline;
+        
+    }
+    .adminHotlineSearch{
+        display: inline;
+        float: unset;
+        margin-left: 2%;
+
+    }
+    .addButtonDiv{
+        display: inline;
+    }
+    .crumbs-admin-hotlines{
+        margin-bottom: 0%;
+        margin-top: -4%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .closeDeleteModal{
+        margin-right: -50%;
+        margin-top: -50%;
+    }
+    .customModalDelete{
+        width: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .customModalShare{
+        width: auto;
+    }
+    .customModalPhone{
+        width: auto;
+        height: auto;
+    }
+    .closePhoneModal{
+        margin-right: -20%;
+    }
+    .closeShareModal{
+        font-weight: bold;
+        margin-right: -15%;
+        margin-top: -25%;
+    }
+}

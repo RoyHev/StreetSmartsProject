@@ -1,0 +1,98 @@
+.forgotPass {
+    font-family: 'Alef', sans-serif;
+    font-size: 2.4vh;
+    margin-right: 7.5%;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #263d43;
+}
+
+.picture{
+    margin-top: 6%;
+}
+
+.addTitle{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Alef', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: #263d43;
+    
+}
+
+.submitButton{
+    margin-top: 10%;
+    background-color: transparent;
+    outline-color: transparent;
+    background: transparent;
+    border-radius: 50px;
+    
+}
+
+.genbutton{
+    margin-top: 30px;
+    margin-bottom: 10%;
+
+}
+.additionButton{
+    border: solid 1px #263d43;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Alef', sans-serif;
+    font-size: 14px;
+    color: #25c3e8;
+    background-color: #263d43;
+    cursor: pointer;
+}
+
+.checkBtn{
+    cursor: pointer;
+}
+.adminLoginDiv{
+    padding-bottom: 11rem;
+}
+.adminHomeDiv{
+    padding-bottom: 10rem;
+}
+.errorMessage{
+    float: right;
+    margin-right: 7.5%;
+    direction: 'rtl';
+    font-size: 16px;
+    font-family: 'Alef', sans-serif;
+    /* font-weight: bolder; */
+    color: red;
+}
+
+.crumbs{
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px){
+    .adminLoginDiv{
+        width: 17%;
+        margin: 0 auto;
+    }
+    .picture{
+        margin-top: 0%;
+    }
+    .crumbs{
+        margin-top: -4%;
+    }
+    .submitButton{
+        margin-top: 5%;
+        background-color: transparent;
+        outline-color: transparent;
+        background: transparent;
+        border-radius: 50px;
+    }
+    .addNewAdminDiv{
+        width: 17%;
+        margin: 0 auto;
+    }
+    .addTitle{
+        font-size: 21px;
+    }
+
+}

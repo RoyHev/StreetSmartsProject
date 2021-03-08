@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <filter id="prefix__a" width="560%" height="560%" x="-230%" y="-230%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="10" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.884821877 0 0 0 0 0.914437467 0 0 0 0 0.92430933 0 0 0 0.7 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <circle id="prefix__b" cx="10" cy="10" r="10"/>
+        <path id="prefix__d" d="M9.402.41c.776 0 1.41.634 1.41 1.41v5.642c0 .776-.634 1.41-1.41 1.41H1.88c-.776 0-1.41-.634-1.41-1.41L.475 1.82c0-.777.629-1.41 1.405-1.41h7.522zm0 .94H1.88c-.256 0-.465.211-.465.47L1.41 7.463c0 .257.213.47.47.47h7.522c.257 0 .47-.213.47-.47V1.82c0-.258-.213-.47-.47-.47zM8.303 2.358c.223-.134.511-.062.645.16.135.223.063.512-.159.647L5.646 5.07l-.003.006-3.065-1.846c-.222-.134-.294-.423-.16-.645.134-.223.423-.294.645-.16L5.627 3.97z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#prefix__a)">
+        <mask id="prefix__c" fill="#fff">
+            <use xlink:href="#prefix__b"/>
+        </mask>
+        <use fill="#424B5A" xlink:href="#prefix__b"/>
+        <g fill="#F6FCFE" mask="url(#prefix__c)">
+            <path d="M0 0H20V20H0z"/>
+        </g>
+        <g mask="url(#prefix__c)">
+            <g transform="translate(4.359 5.359)">
+                <mask id="prefix__e" fill="#fff">
+                    <use xlink:href="#prefix__d"/>
+                </mask>
+                <use fill="#979797" fill-rule="nonzero" xlink:href="#prefix__d"/>
+                <g mask="url(#prefix__e)">
+                    <path fill="#263D43" d="M0 0H11.282V11.282H0z" transform="translate(0 -1)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

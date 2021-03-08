@@ -1,0 +1,137 @@
+.acceptance-terms-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5,0.5fr);
+}
+
+.acceptance-terms-wrapper > div:nth-child(1) {
+    grid-column: 1 / 6;
+}
+
+.acceptance-terms-wrapper > div:nth-child(2) {
+  grid-column: 1 / 5;
+  padding-right: 5%;
+
+}
+
+.acceptance-terms-wrapper > div:nth-child(4) {
+  padding-right: 5%;
+  grid-column: 1 / 5;
+}
+
+
+.acceptance-terms-wrapper > div:nth-child(6) {
+  padding-right: 5%;
+  grid-column: 1 / 5;
+}
+
+
+.acceptance-terms-wrapper > div:nth-child(8) {
+  padding-right: 5%;
+  grid-column: 1 / 5;
+}
+
+.acceptance-label{
+  font-family: 'Alef', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(73,94,99);}
+
+/* Hide default input */
+.toggle input {
+    display: none;
+  }
+  
+  /* The container and background */
+  .toggle {
+    position: relative;
+    display: inline-block;
+    width: 7vh;
+    height: 2.2vh;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    border: 1px solid #aaa;
+    border-radius: 30px;
+    transition: all 0.4s;
+  }
+  
+  /* The sliding button */
+  .slider:before {
+    position: absolute;
+    content: "";
+    width: 1.7vh;
+    height: 1.7vh;
+    left: 0.2vh;
+    top: 0.18vh;
+    background-color: #263d43;
+    /* background-color: rgb(41,63,69); */
+    border-radius: 24px;
+    transition: all 0.4s;
+  }
+  
+  /* On checked */
+  .toggleCheckbox:checked + .slider {
+    background-color: #25c3e8;
+    /* background-color: rgb(37,194,230); */
+  }
+  .toggleCheckbox:checked + .slider:before {
+    transform: translateX(4.8vh);
+  }
+  .acceptanceDiv{
+    padding-bottom: 12rem;
+  }
+  .progbar{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 10rem;
+  }
+  .progress-buttons-wrapper{
+    margin-bottom: 15% !important;
+  }
+
+  .acceptance-buttons{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+#terms-unable-chevron{
+    opacity: 0.2;
+}
+@media only screen and (min-width: 1000px){
+  .acceptanceDiv{
+      width: 75%;
+      margin: 0 auto;
+  }
+  .acceptance-label{
+    margin-right: 25%;
+  }
+  .acceptance-slider-div{
+    margin-right: -50%;
+  }
+  .acceptance-buttons{
+    margin-top: -7.5%;
+    margin-bottom: 5%;
+  }
+  .toggle{
+    width: 12vh ;
+    height: 4vh ;
+  }
+  .slider:before{
+    width: 3vh;
+    height: 3vh;
+    left: 0.33vh;
+    top: 0.33vh;
+  }
+  .toggleCheckbox:checked + .slider:before {
+    transform: translateX(8.2vh);
+  }
+}

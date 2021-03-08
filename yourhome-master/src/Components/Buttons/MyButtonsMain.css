@@ -1,0 +1,35 @@
+.spaces{
+    display: inline-block;
+    margin: 0px 10px 13px 0px;
+}
+
+.main-buttons{
+    padding: 0px 1%;
+}
+
+.main-button-img{
+    margin-bottom: -7%;
+    height: 20px;
+}
+
+.first-aid-img{
+    margin-bottom: -2.5%;
+    height: 20px;
+}
+
+.violence-img{
+    margin-bottom: -3.5%;
+    height: 20px;
+}
+
+.food-img{
+    margin-bottom: -8%;
+    height: 20px;
+}
+
+@media only screen and (min-width: 768px){
+    .main-buttons{
+        width: 55%;
+        margin: 0 auto;
+    }
+}

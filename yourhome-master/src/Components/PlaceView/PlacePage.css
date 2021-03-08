@@ -1,0 +1,67 @@
+.search-results-label{
+    margin-top: 5%;
+    margin-bottom: 15px;
+    direction: rtl;
+    font-family: 'Alef';
+    font-size: 24px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #263d43;
+}
+
+.clearSearch{
+    font-family: 'Alef',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-left: 7%;
+    cursor: pointer;
+}
+
+.grayLine{
+    border-bottom: solid 0.5px #c2d1d9;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.noSearchItems{
+    font-family: 'Alef',sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #263d43;
+}
+
+@media only screen and (min-width: 768px){
+    .grayLine{
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 3%;
+    }
+    .clearSearch{
+        font-family: 'Alef',sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 1%;
+        margin-left: 12.5%;
+    }
+    .search-results-label{
+        margin-top: 3%;
+    }
+
+    .searchBox{
+        margin-bottom: -2%;
+        margin-top: -0.5%;
+    }
+    .butonsHomepage{
+        margin-bottom: -2.5%;
+    }
+
+}

@@ -1,0 +1,117 @@
+
+.street{
+    font-family: 'Alef', sans-serif;
+    font-size: 14px;
+
+}
+.city{
+    font-family: 'Alef', sans-serif;
+    font-size: 14px;
+
+}
+
+.phone{
+    font-family: 'Alef', sans-serif;
+    font-size: 14px;
+    margin-bottom: -1vh;
+
+}
+.newfooter {
+    background-color: #f6fcfe;
+    height: 9rem;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+.rightfoot{
+    float: right;
+    margin-right: 8%;
+    margin-top: 10%;
+    background-color: #f6fcfe;
+
+}
+.leftfoot{
+    float: left;
+    margin-left: 11%;
+    margin-top: 29px;
+    padding-bottom: 29px;
+    background-color: #f6fcfe;
+}
+
+.charity{
+    font-family: 'Alef', sans-serif;
+    font-size: 14px;
+    display: inline;
+}
+.leftcharity{
+    display: inline;
+}
+.rightcharity{
+    display: inline;
+}
+.rFooter{
+    background-color: #f6fcfe;
+}
+
+.charityname{
+    color: #25c3e8;
+}
+
+.icons{
+    margin-top: 15%;
+    margin-right: -10%;
+    background-color: #f6fcfe;
+    
+}
+
+.mailicon{
+    padding-left: 13px;
+
+}
+.iconsvg{
+    width: 30px;
+    height: 30px;
+    filter: drop-shadow( 0px 0px 6px rgba(0, 0, 0, 0.2));
+}
+
+@media only screen and (min-width: 768px) {
+    
+.street{
+    font-size: 16px;
+}
+.city{
+    font-size: 16px;
+}
+.phone{
+    font-size: 16px;
+}
+.newfooter {
+    height: 10rem;
+    /* width: 75%;
+    left: 12.5%; */
+}
+
+.rightfoot{
+    margin-right: 6rem;
+    margin-top: 2.5rem;
+
+}
+.leftfoot{
+    margin-left: 6rem;
+    margin-top: 1.5rem;
+    padding-bottom: 0;
+}
+
+.charity{
+    font-size: 16px;
+}
+
+.icons{
+    margin-right: 7%;
+    margin-top: 20%;
+    
+}
+ 
+  }

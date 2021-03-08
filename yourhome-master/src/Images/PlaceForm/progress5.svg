@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="17" viewBox="0 0 134 17">
+    <defs>
+        <circle id="prefix__a" cx="5" cy="5" r="5"/>
+        <circle id="prefix__c" cx="5" cy="5" r="5"/>
+        <circle id="prefix__e" cx="5" cy="5" r="5"/>
+        <circle id="prefix__g" cx="5" cy="5" r="5"/>
+        <circle id="prefix__i" cx="5" cy="5" r="5"/>
+        <circle id="prefix__k" cx="5" cy="5" r="5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0 1) translate(0 6)">
+            <mask id="prefix__b" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <use fill="#263D43" fill-rule="nonzero" xlink:href="#prefix__a"/>
+            <g fill="#EAECEE" mask="url(#prefix__b)">
+                <path d="M0 0H10V10H0z"/>
+            </g>
+        </g>
+        <g transform="translate(0 1) translate(20 6)">
+            <mask id="prefix__d" fill="#fff">
+                <use xlink:href="#prefix__c"/>
+            </mask>
+            <use fill="#263D43" fill-rule="nonzero" xlink:href="#prefix__c"/>
+            <g fill="#EAECEE" mask="url(#prefix__d)">
+                <path d="M0 0H10V10H0z"/>
+            </g>
+        </g>
+        <g transform="translate(0 1) translate(60 6)">
+            <mask id="prefix__f" fill="#fff">
+                <use xlink:href="#prefix__e"/>
+            </mask>
+            <use fill="#263D43" fill-rule="nonzero" xlink:href="#prefix__e"/>
+            <g fill="#EAECEE" mask="url(#prefix__f)">
+                <path d="M0 0H10V10H0z"/>
+            </g>
+        </g>
+        <g transform="translate(0 1) translate(40 6)">
+            <mask id="prefix__h" fill="#fff">
+                <use xlink:href="#prefix__g"/>
+            </mask>
+            <use fill="#263D43" fill-rule="nonzero" xlink:href="#prefix__g"/>
+            <g fill="#EAECEE" mask="url(#prefix__h)">
+                <path d="M0 0H10V10H0z"/>
+            </g>
+        </g>
+        <g transform="translate(0 1) translate(80 6)">
+            <mask id="prefix__j" fill="#fff">
+                <use xlink:href="#prefix__i"/>
+            </mask>
+            <use fill="#263D43" fill-rule="nonzero" xlink:href="#prefix__i"/>
+            <g fill="#263D43" mask="url(#prefix__j)">
+                <path d="M0 0H10V10H0z"/>
+            </g>
+        </g>
+        <g transform="translate(0 1) translate(100 6)">
+            <mask id="prefix__l" fill="#fff">
+                <use xlink:href="#prefix__k"/>
+            </mask>
+            <use fill="#263D43" fill-rule="nonzero" xlink:href="#prefix__k"/>
+            <g fill="#EAECEE" mask="url(#prefix__l)">
+                <path d="M0 0H10V10H0z"/>
+            </g>
+        </g>
+        <g fill-rule="nonzero" stroke="#E5E9EA" stroke-linecap="round">
+            <path d="M5 0L5.57 14.063" transform="translate(0 1) translate(120)"/>
+            <path fill="#E5E9EA" d="M5.616 4.688c-.071 0-.071-1.25 0-3.75 1.302.452 3.16 1.077 5.571 1.875-2.023 1.25-3.88 1.874-5.57 1.874z" transform="translate(0 1) translate(120)"/>
+            <path stroke-width="2" d="M11.069 14.819c-1.68-.454-3.375-.68-5.083-.68-1.708 0-3.416.226-5.124.68" transform="translate(0 1) translate(120)"/>
+        </g>
+    </g>
+</svg>

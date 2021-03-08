@@ -1,0 +1,67 @@
+.progressBar{
+    position: absolute;
+    bottom: 11rem;
+    left: 0;
+    right: 0;
+    /* margin-bottom: 3rem; */
+    /* display: inline-block; */
+    /* margin-top: 20%; */
+}
+.colored-dot{
+    margin-right: 2%;
+    width: 13px;
+    height: 13px;
+}
+.colored-dot :hover{
+    cursor: pointer;
+}
+.dot{
+    width: 13px;
+    height: 13px;
+}
+.chevronRight{
+    margin-bottom: -2%;
+    padding-left: 5%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.chevronLeft{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -2%;
+    padding-right: 5%;
+    opacity: 0.3;
+}
+.rightChevron{
+    margin-bottom: -2%;
+    padding-left: 5%;
+    width: 30px;
+    height: 30px;
+    opacity: 0.3;
+}
+.leftChevron{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -2%;
+    padding-right: 5%;
+    cursor: pointer;
+}
+
+.showCardButton, .saveButton, .dropDown{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px){
+    .firstPage, .secondPage{
+        width: 30%;
+        margin: 0 auto;
+    }
+    .chevronRight, .chevronLeft, .leftChevron, .rightChevron{
+        margin-bottom: -0.75%;
+    }
+    .crumbs-hotlines-add{
+        margin-right: -105%;
+        margin-top: -7%;
+    }
+}

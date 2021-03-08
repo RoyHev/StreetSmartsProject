@@ -1,0 +1,76 @@
+
+:root{
+    --primary: #4628ff;
+    --white: #fdfdfd;
+    --black: #000000;
+    --dark: #181717;
+    --warning: #ffd028;
+    --accept: #263d43;
+    --turquoise: #25c3e8;
+}
+
+.btn{
+    font-family: 'Alef', sans-serif;
+    font-weight: 400;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+}
+
+/* Button Colors and Styles */
+
+.btn--primary--solid {
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+}
+
+.btn--accept--solid {
+    background-color: var(--accept);
+    color: var(--turquoise);
+    border: none;
+}
+
+.btn--mailSend--solid{
+    background-color: var(--turquoise);
+    color: var(--black);
+    height: 40px;
+    width: 90px;
+    border: none;
+}
+
+.btn--add--solid{
+    background-color: var(--accept);
+    color: var(--turquoise);
+    width: 160px;
+    height: 40px;
+    border:none;
+}
+
+
+/* Button Sizes */
+
+.btn--medium {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+
+.btn--small {
+    padding: 10px 17.5px;
+    font-size: 14px;
+}
+
+.btn--send{
+    font-size: 14px;
+    padding: 10px 20px; 
+}
+
+.btn--add{
+    font-family: 'Alef', sans-serif;
+    font-size: 14px;
+}

@@ -1,0 +1,43 @@
+.dropDown{
+      display: inline;
+      
+}
+.chevronImg{
+      float: left;
+      overflow-wrap: none;
+      margin-left: 5%;
+      margin-top: -8%;
+}
+.inputName{
+    margin-bottom: 5%;
+}
+
+.saveButton{
+    margin-top: 10%;
+    padding: 10px 50px 10px 50px;
+    color: #25c3e8;
+    background-color: #263d43;
+    border: solid 1px #263d43;
+    font-family: "Alef", sans-serif;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.showCardButton{
+    font-family: "Alef", sans-serif;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    margin-left: 5%;
+    border: solid 1px #25c3e8;
+    background-color: white;
+}
+.secondPage{
+    padding-bottom: 12rem;
+}
+.buttonDiv{
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+.crumbs-hotlines-add{
+    margin-bottom: -6%;
+}

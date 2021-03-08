@@ -1,0 +1,142 @@
+.fieldName{
+    font-family: 'Alef', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #263d43;
+    /* float: right; */
+    /* float: right; */
+    direction: rtl;
+    margin-right: 8%;
+    margin-bottom: 1.3vh;
+    /* padding-bottom: 1.3vh; */
+}
+
+.firstLine {
+    font-family: 'Alef', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #263d43;
+    /* margin-top: 5.6vh; */
+    margin-top: 35px;
+    margin-bottom: 14px;
+
+}
+
+.secondLine{
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    color: #263d43;
+}
+.thirdLine{
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    color: #263d43;
+    margin-bottom: 30px;
+}
+
+.page{
+    background-color: #f6fcfe;
+    padding-bottom: 9rem;
+}
+
+.inputs{
+    background-color: #f6fcfe !important;
+}
+
+.paragraph{
+    align-self: center;
+    display: flex;
+    border-radius: 20px;
+    height:108px;
+    width: 85%;
+    outline: 0px;
+    border: solid 1px #263d43;
+    margin: 2vh 1vh;
+    padding: 0.5vh; 
+    transition: 0.3s;
+    font-family: 'Alef', sans-serif;
+    font-size: 2.7vh;
+    padding-right: 1.5vh;
+    background-color: #f6fcfe;
+    border-radius: 18px;
+    columns: #000000;
+    color: #263d43;
+  
+  }
+  .paragraph::placeholder{
+      opacity: 0.5;
+  }
+
+.sendButton{
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.mailSentPage{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f6fcfe;
+    padding-bottom: 9rem;
+}
+.mailSentImage{
+    /* padding-top: 130px; */
+    padding-top: 50%;
+    padding-bottom: 20px;
+}
+.mailSentThankYou{
+    font-family: 'Alef', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    color: #263d43;
+    padding-bottom: 10px;
+    
+}
+
+.mailSentMessage1{
+    font-family: 'Alef', sans-serif;
+    font-size: 23px;
+    color: #263d43;
+}
+
+.mailSentMessage2{
+    font-family: 'Alef', sans-serif;
+    font-size: 23px;
+    color: #263d43;
+    /* padding-bottom: 130px; */
+}
+
+.go-to-homepage{
+    font-family: 'Alef', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.errorMessages{
+    color: red;
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    /* font-weight: bold; */
+    text-align: right;
+    margin-right: 7%;
+}
+
+.crumbs-contact{
+    margin-top: -5%;
+}
+
+@media only screen and (min-width: 768px){
+    .contactPageForm{
+        width: 35%;
+        margin: 0 auto;
+    }
+    .page{
+        margin-top: -5%;
+    }
+    .crumbs-contact{
+        margin-top: 0%;
+        padding-top: 0;
+    }
+}

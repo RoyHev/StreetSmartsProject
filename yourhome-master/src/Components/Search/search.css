@@ -1,0 +1,73 @@
+.search-div{
+  margin: 8% 3% 5% 0px;
+}
+
+.search-side-icons{
+  margin: 0px 0px -20px 0px;
+  cursor: pointer;
+  filter: drop-shadow( 0px 0px 6px rgba(0, 0, 0, 0.2));
+
+}
+
+.my-search{
+    border-radius: 20px;
+    color: #263d43;
+    width: 55%;
+    outline: 0px;
+    border: none;
+    padding: 10px 40px 10px 0px;
+    transition: 0.4s;
+    font-stretch: normal;
+    font-family: 'Alef', sans-serif;
+    font-size: 18px;
+    background-image: url('../../Images/search-icon.svg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: right -30px bottom ;
+    box-shadow: 0px 2px 10px 0px #cccccc;
+    background-color: #ffffff;
+  }
+
+  .my-search::placeholder{
+    color: #a1aeb7;
+  }
+
+  .my-search:hover{
+    box-shadow: 0 0 0.6vh 0 rgb(106, 109, 110);
+  }
+
+  .submit-btn{
+    border-radius: 20px;
+    color: rgb(33,58,65);
+    height:3.9vh;
+    width: 10vh;
+    outline: 0px;
+    border: 0.22vh solid;
+    margin: 0vh 0vh 0vh 0vh;
+    padding:  0vh 0vh 0vh 0vh;
+    transition: 0.3s;
+    font-family: 'Alef', sans-serif;
+    font-size: 2.5vh;
+    cursor:pointer;
+    background-color: white;
+  }
+
+  .cancel-icon{
+    position: relative;
+    cursor: pointer;
+    left: 4.8vh;
+    margin: auto;
+  }
+
+  @media only screen and (min-width: 768px){
+    .search-div{
+      width: 75%;
+      margin-top: 2%;
+      margin-bottom: 3.5%;
+    }
+    
+    .search-side-icons{
+      margin: 0px 2px -20px 0px;
+    }
+
+  }

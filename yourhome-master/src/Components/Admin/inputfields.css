@@ -1,0 +1,23 @@
+.inputText{
+  align-self: center;
+    display: flex;
+    border-radius: 20px;
+    color: #263d43;
+    height:4.2vh;
+    width: 85%;
+    outline: 0px;
+    border: solid 1px #263d43 !important;
+    margin: 2vh 1vh;
+    padding: 0.5vh; 
+    transition: 0.3s;
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    padding-right: 1.5vh;
+    background-color: #ffffff !important;
+    background-color: white;
+    
+  }
+  .inputText:hover{
+    border-color: rgb(33,58,65);
+    box-shadow: 0 0 0.6vh 0 rgb(33,58,65);
+  }

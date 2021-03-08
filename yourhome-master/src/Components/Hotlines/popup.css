@@ -1,0 +1,105 @@
+.clk {
+    display: inline;
+    font-family: 'Alef', sans-serif;
+    color: #263d43;
+    font-size: 16px;
+    margin-left: 20%;
+    text-decoration: none;
+    font-weight: bold;
+    outline: 0;
+}
+.links{
+    text-decoration: none;
+    color: #25c3e8;
+    padding-left: 20%;
+}
+.buttons{
+    margin-top: 8%;
+    float: left;
+    margin-bottom: 7%;
+}
+
+.generic-to{
+    font-family: 'Alef', sans-serif;
+    color: #263d43;
+    font-size: 20px;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+.to-who{
+    font-family: 'Alef', sans-serif;
+    color: #263d43;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 170px;
+    margin-right: 8%;
+}
+.customModalPhone{
+    width: 90%;
+    background-color: #dbf3f9;
+    border-radius: 10px;
+}
+.closePhoneModal{
+    float: right;
+    margin-top: -30%;
+    margin-right: -5%;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closeShareModal{
+    float: right;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin-top: -27%;
+    margin-right: -6%;
+}
+.customModalShare{
+    background-color: #dbf3f9;
+    width: 90%;
+    border-radius: 10px;
+}
+.share-generic{
+    font-size: 22px;
+    font-family: "Alef", sans-serif;
+    color: #263d43;
+    margin-top: 5%;
+
+}
+.to-share{
+    font-family: 'Alef', sans-serif;
+    font-size: 22px;
+    color: #263d43;
+}
+.name-of-share{
+    font-weight: bold;
+    margin-bottom: 8%;
+}
+.share-icons-container{
+    filter: drop-shadow( 0px 0px 6px rgba(0, 0, 0, 0.2));
+
+    outline: none;
+}
+.facebookshare{
+    outline: 0;
+}
+.whatsappshare{
+    outline: 0;
+}
+.telegramshare{
+    outline: 0;
+}
+
+.copylink{
+    font-family: 'Alef', sans-serif;
+    font-size: 16px;
+    text-underline-position: below;
+    text-decoration: underline;
+    color: #263d43;
+    font-weight: bold;
+    cursor: pointer;
+}

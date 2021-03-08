@@ -1,0 +1,10 @@
+
+.hamburgerSVG{
+    margin-top: -30%;
+    margin-right: -10%;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    cursor: pointer;
+}
+

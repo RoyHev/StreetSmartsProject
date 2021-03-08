@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="107" viewBox="0 0 360 107">
+    <defs>
+        <linearGradient id="prefix__a" x1="100%" x2="0%" y1="100%" y2="100%">
+            <stop offset="0%" stop-color="#25C3E8" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#25C3E8"/>
+        </linearGradient>
+        <linearGradient id="prefix__b" x1="100%" x2="0%" y1="100%" y2="100%">
+            <stop offset="0%" stop-color="#25C3E8" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#25C3E8"/>
+        </linearGradient>
+        <linearGradient id="prefix__c" x1="100%" x2="0%" y1="100%" y2="100%">
+            <stop offset="0%" stop-color="#25C3E8"/>
+            <stop offset="100%" stop-color="#25C3E8" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="prefix__d" x1="100%" x2="0%" y1="100%" y2="100%">
+            <stop offset="0%" stop-color="#25C3E8"/>
+            <stop offset="100%" stop-color="#25C3E8" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none">
+        <path fill="#95DCEC" fill-opacity=".1" d="M0 0H360V81H0z" transform="matrix(1 0 0 -1 0 81)"/>
+        <g opacity=".1">
+            <path fill="url(#prefix__a)" d="M0 24.418H204V37.158H0z" transform="translate(0 10)"/>
+            <path fill="url(#prefix__b)" d="M0 37.158H106V49.898H0z" transform="translate(0 10)"/>
+            <path fill="url(#prefix__c)" d="M234 57.33H360V70.07H234zM106 46.713H232V59.453H106z" transform="translate(0 10)"/>
+            <path fill="url(#prefix__d)" d="M297 44.59H360V57.330000000000005H297zM209 38.22H272V50.96H209zM297 70.07H360V82.80999999999999H297z" transform="translate(0 10)"/>
+            <path fill="url(#prefix__a)" d="M156 0H360V12.74H156z" transform="translate(0 10) rotate(180 258 6.37)"/>
+            <path fill="url(#prefix__b)" d="M254 12.74H360V25.48H254z" transform="translate(0 10) rotate(180 307 19.11)"/>
+            <path fill="url(#prefix__a)" d="M0 83.836H204V96.576H0z" transform="translate(0 10)"/>
+            <path fill="url(#prefix__b)" d="M0 71.096H106V83.836H0z" transform="translate(0 10)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+.welcome-message{
+    font-size: 22px;
+    font-family: 'Alef', sans-serif;
+    font-weight: bolder;
+    word-wrap: break-word;
+    width: 62%;
+    color: #263d43;
+    padding-bottom: 8%;
+}
+.newAdminModal{
+    background-color: #dbf3f9;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.new-admin-popud-logo{
+    margin-top: -20%;
+}
+.closeModalButton{
+    float: right;
+    font-size: 30px;
+    margin-right: -7%;
+    margin-top: -35%;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: -10% !important;
+}
+
+.welcome-button{
+    color: #25c3e8;
+    border: solid 1px #263d43;
+    border-radius: 20px;
+    padding: 8px 28px 8px 28px;
+    background-color: #263d43;
+    font-family: 'Alef', sans-serif;
+    font-size: 15px;
+
+}

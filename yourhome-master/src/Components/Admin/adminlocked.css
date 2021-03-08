@@ -1,0 +1,63 @@
+.mainLockedPage{
+    position: fixed;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+.paddingForFooter{
+    padding-bottom: 9rem;
+}
+
+.content{
+    height: auto;
+    width: auto;
+    background-color: #dbf3f9;
+    border-radius: 10px;
+}
+
+.lockedLogo{
+    margin-top: -15%;
+}
+.lockedMessage{
+    font-family: 'Alef',sans-serif;
+    font-size: 18px;
+    word-wrap: break-word;
+    width: 180px;
+    padding-bottom: 5%;
+    color: #263d43;
+
+
+}
+.lockedTitle{
+    font-family: 'Alef',sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #263d43;
+    
+}
+.homePageButton{
+    font-family: 'Alef', sans-serif;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    color: #25c3e8;
+    background-color: #263d43;
+    border: solid 1px #263d43;
+    margin-bottom: 15%;
+    cursor: pointer;
+}
+.homePageButton :hover{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px){
+    .content{
+        height: auto;
+        width: 30%
+    }
+    .lockedLogo{
+        margin-top: -10%;
+    }
+
+}
